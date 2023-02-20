@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Sabi Blog </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img width="150" src="img/Sabi-logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a  class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                data-hover="dropdown" aria-expanded="false">
+                                Catalog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Fashion week</a></li>
+                                <li><a class="dropdown-item" href="#">Shop</a></li>
+                                <li><a class="dropdown-item" href="#">Life style</a></li>
+                                <li><a class="dropdown-item" href="#">Beauty</a></li>
+                                <li><a class="dropdown-item" href="#">Travel</a></li>
+                                <li><a class="dropdown-item" href="#">Looks</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">More+</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="chcolor" class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="language">
+                        <button id="lang" class="btn btn-outline-danger">Azərbaycan</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- sec1 start -->
+    <!-- <div class="sec1 d-flex">
+        <h1 class="mx-auto mt-5">- Welcome to Sabi Blog -</h1>
+        <div class="mx-auto mt-5">
+            <a id="home" href="#">Home // <span>Blog </span></a>
+        </div>
+    </div> -->
+    <!-- sec1 end -->
+
+    <!-- CARD START -->
+    <div class="container mt-5 mb-5">
+        <div class="row g-5">
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://media1.popsugar-assets.com/files/thumbor/uG10AMRxH6WoiO3JRPdRt7R7rU4/0x71:2284x2355/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2022/09/08/869/n/1922153/f2e3f0ae631a48063810e7.14848419_/i/queen-elizabeth-ii-beauty-looks.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>The Queen</h3>
+                        <a class="cardHref" href="#">Elizabeth's clothes were on the agenda</a>
+                        <p class="p">Elizabeth II (Elizabeth Alexandra Mary; 21 April 1926 – 8 September 2022) was Queen of the
+                            United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022.
+                            She was queen regnant of 32 sovereign states during her lifetime, and was head of state of
+                            15 realms at the time of her death. Her reign of 70 years and 214 days was the longest of
+                            any British monarch and the longest verified reign of any female monarch in history.</p>
+
+                        <div class="card-body-2">
+                            <p>03.04.2022</p>
+                            <button class="btn btn-outline-danger read" id="readBtn"><i>Read more...</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw2f2b1b78/Y0996177/Y0996177_C317500999_E04_GHC.jpg?sw=800&sh=800"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Dior</h3>
+                        <a class="cardHref" href="#">Dior Rouge - Natalie Portman</a>
+                        <p class="p">Today Rouge Dior enters the global sustainable approach of the house of Dior and becomes
+                            refillable, following in the footsteps of Christian Dior’s vision, whose very first lipstick
+                            was already refillable. Embodied by icon Natalie Portman, this new rouge legend audaciously
+                            and brilliantly reinvents Dior elegance.
+
+                            Dior created custom vegan accessories specifically for this Rouge Dior campaign.</p>
+
+                        <div class="card-body-2">
+                            <p>06.03.2022</p>
+                            <button class="btn btn-outline-danger read" id="readBtn"><i>Read more...</i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://preview.redd.it/doja-cats-paris-fashion-week-2023-outfit-v0-0y9ozuirdzda1.jpg?auto=webp&s=692a090f18ca43204e16f0898417c5e1470d8117"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Outfits </h3>
+                        <a class="cardHref" href="#">Paris Fashion Week-2023</a>
+                        <p class="p">The Federation coordinates and enhances Paris Fashion Week® and its offshoots each year. At
+                            the earliest stages, the Federation liaises with the other capitals, such as Milan, London
+                            and New York, and the other shows in order to guarantee international coherence and to
+                            remain a true development lever to serve brands. The Federation provides logistical support
+                            to member SACEM fees early on, and can, depending
+                            on the brand's profile</p>
+
+                        <div class="card-body-2">
+                            <p>30.01.2023</p>
+                            <button class="btn btn-outline-danger read" id="readBtn"><i>Read more...</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://cdn.shopify.com/s/files/1/0012/2981/5865/collections/IMG_6422-2_600x600_crop_center.jpg?v=1626007492"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>2023 Fashion Trends</h3>
+                        <p class="p">Four months after the new runway collections made a case for all we should expect in the new
+                            year, the 2023 fashion trends have started making their way into the stores. What should we
+                            be buying?
+                            This year, trends are taking a turn for utilitarian with cargo pants, denim, and wearable
+                            silhouettes all endorsed by spring 2023 shows. That's not to say that the first six months
+                            of the year will be boring style-wise. </p>
+
+                        <div class="card-body-2">
+                            <p>15.02.2023</p>
+                            <button class="btn btn-outline-danger read" id="readBtn"><i>Read more...</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://d.newsweek.com/en/full/1860844/little-girl-holding-phone.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h3>Fashion Shop</h3>
+                        <a class="cardHref" href="#">We start new projects in 2023</a>
+                        <p class="p">
+
+                            Dancing, drawing, swimming, playing piano...are these kids' favorite activities after
+                            school? If you have a child, will you let him or her join some special activities which can
+                            help them to discover his or her talent and start learning to become social earlier? How
+                            about learning to become a model?
+                            Many people think that models are just some pretty girls and handsome men walking on the
+                            stage and showing new and fancy clothes, but actually children can also learn to become a
+                            model. In Macau, there are some modeling courses provided by some youth centers which are
+                            especially for kids of 3 - 12 years old.</p>
+
+                        <div class="card-body-2">
+                            <p>15.02.2023</p>
+                            <button class="btn btn-outline-danger read" id="readBtn"><i>Read more...</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <img src="https://cdn.cliqueinc.com/posts/304407/hair-trends-2023-304407-1672834211274-image.700x0c.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3>Hair models in 2023</h3>
+                        <a class="cardHref" href="#">About hair color, hair cut ...</a>
+                        <p class="p">
+                            Hair models are required for a colourful selection of bookings, ranging from photo shoots
+                            for hair product advertising right through to hair styling shows and live competitions, and
+                            film and television work.
+                        </p>
+
+                        <div class="card-body-2">
+                            <p>15.02.2023</p>
+                            <button class="btn btn-outline-danger read" id="readBtn"><i>Read more...</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CARD END -->
+
+    <!-- sec-2 START -->
+    <div class="sec2 d-flex my-2 ">
+        <div class="left">
+            <h1 class="stay">Stay connect with us, get daily & weekly update.</h1>
+        </div>
+
+        <div class="right">
+            <button class="btn btn-outline-light stay"> Subscribe Now <i class="fa-solid fa-angles-right"></i> </button>
+        </div>
+    </div>
+    <!-- sec-2 END -->
+
+    <!-- sec-3 Start -->
+    <div class="section-3">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="img/back-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  src="https://johnlewis.scene7.com/is/image/JohnLewis/beauty-society-hero-flip1-221019?$rsp-home-hero-lg$&resMode=sharp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img  src="img/back-3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <!-- sec-3 End -->
+
+    <!-- Footer-1 Start -->
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img width="120" src="img/Sabi-logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="col mb-3">
+            </div>
+
+            <div class="col mb-3">
+                <h5 id="product" class="foot">Product</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">Presentation</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">E-books</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">Event Organizer</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 id="blogs" class="foot">Blogs</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">Contact Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5 id="quick" class="foot">Quick Links</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">Privacy Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted foot">Discussion</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer-1 End -->
+
+    <!-- Footer-2 START -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted end">© <span class="date"></span> Made with Matrix <i
+                    class="fa-solid fa-heart"></i> by Sabina</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i
+                            class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i
+                            class="fa-brands fa-twitter"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i
+                            class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i
+                            class="fa-brands fa-odnoklassniki"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- Footer-2 END -->
+    <script type="module" src="js/script.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
